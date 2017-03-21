@@ -1,0 +1,9 @@
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp.csproj
+SplitAlphaShaderDemo.sln
+Build/*
+Library/*
+obj/*
+Temp/*
+ProjectSettings/*
+
