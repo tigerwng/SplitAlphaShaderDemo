@@ -28,6 +28,9 @@ public class SplitAlphaWithUIImageEditor : Editor
         EditorGUILayout.PropertyField(m_rbgTexture2D);
         EditorGUILayout.PropertyField(m_alphaTexture2D);
 
+        /*
+        让inspector能够调用脚本的set,get方法
+         */
         SplitAlphaWithUIImage image = target as SplitAlphaWithUIImage;
         Color c = EditorGUILayout.ColorField("Color", image.color);
         if(image.color != c)
